@@ -3,25 +3,25 @@
     <channel>
         <title>Pinshelf</title>
         <item>
-            <title>0.1.2</title>
-            <pubDate>Sat, 28 Nov 2026 14:24:06 +0900</pubDate>
+            <title>0.1.3</title>
+            <pubDate>Sat, 28 Nov 2026 22:38:30 +0900</pubDate>
             <link>https://github.com/nexy-apps/pinshelf</link>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>0.1.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## この版の主な変更（0.1.1-beta.1 から）
+            <description sparkle:format="markdown"><![CDATA[## この版の主な変更（0.1.2-beta.1 から）
 
 
-0.1.0・0.1.1 を入れている場合は、アプリの中から更新できます（メニューバーのアイコン →「アップデートを確認…」。自動でも確かめます）。棚の中身と設定は、そのまま残ります。
+0.1.0〜0.1.2 を入れている場合は、アプリの中から更新できます（メニューバーのアイコン →「アップデートを確認…」。自動でも確かめます）。棚の中身と設定は、そのまま残ります。
 
 ### 変わったこと
 
-- 使い方・見た目・動きは変わりません。開発と配布の手順を整えた版です
-- 0.1.0 より前の β 版（ID `app.pinshelf.Pinshelf`）とは別のアプリとして扱われるので、前の版からは更新されず、棚と設定も引き継がれません。前の版を使っていた場合は、ここから入れ直してください（前の版はゴミ箱に入れてかまいません）
+- 使い方・見た目・動きは変わりません
+- 不具合の報告・改善の依頼を、アプリの中から送れるようにする準備を入れました。受け付ける窓口の用意ができたら、メニューバーのメニューに「不具合の報告・改善の依頼…」が出るようになります（この版では、まだ出ません）
 
-**English:** Nothing changes in how Pinshelf looks or works; this release only tidies up the development and release process. If you have 0.1.0 or 0.1.1, you can update from the menu bar ("アップデートを確認…"); shelves and settings are kept. Betas before 0.1.0 (app ID `app.pinshelf.Pinshelf`) do not update to this version, so please install it fresh.
+**English:** Nothing changes in how Pinshelf looks or works. This release adds the groundwork for sending bug reports and feature requests from inside the app; the menu item will appear once the receiving service is ready (not yet in this version). If you have 0.1.0–0.1.2, you can update from the menu bar ("アップデートを確認…"); shelves and settings are kept.
 ]]></description>
-            <enclosure url="https://github.com/nexy-apps/pinshelf/releases/download/v0.1.2-beta.1/Pinshelf-0.1.2-beta.1.zip" length="3131823" type="application/octet-stream" sparkle:edSignature="xj/sxU8CnljPVfQrJESdtXLPFPSThT2ZnaUPZE9kcIvtcg5rfI7jV8ACZFfd7PifYTSfcfH8Z4b5U+e4FSGDDw=="/>
+            <enclosure url="https://github.com/nexy-apps/pinshelf/releases/download/v0.1.3-beta.1/Pinshelf-0.1.3-beta.1.zip" length="3529073" type="application/octet-stream" sparkle:edSignature="lUD0cLxEIHkNW6NRj+PttdAG04wrRbQ0cdEX73dzT7mMnkpzvme51lvfd693pKh7kl2uor3Lvw6EMb4xoGmMCg=="/>
         </item>
     </channel>
 </rss>
