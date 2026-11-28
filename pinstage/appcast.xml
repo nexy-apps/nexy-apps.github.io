@@ -3,20 +3,23 @@
     <channel>
         <title>Pinstage</title>
         <item>
-            <title>0.2.1</title>
-            <pubDate>Sat, 28 Nov 2026 14:37:38 +0900</pubDate>
+            <title>0.2.2</title>
+            <pubDate>Sun, 29 Nov 2026 05:03:20 +0900</pubDate>
             <link>https://github.com/nexy-apps/pinstage</link>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## この版の変更（0.2.1）
+            <description sparkle:format="markdown"><![CDATA[## この版の変更（0.2.2）
 
 
-- **設定の「自動化」の説明を直しました**：「グループを呼び出す URL」の説明で、URL を開くのに使えるものの例を「ランチャーのアプリ・ボタン操作のデバイス・ターミナルの open コマンドなど」にしました。使い方は変わりません
+- **不具合の報告・改善の依頼を、アプリの中から送れるようになりました。** メニューバーのアイコン →「不具合の報告・改善の依頼…」で開きます。GitHub のアカウントは要りません
+  - 上のタブで「不具合」か「改善の依頼」を選んで書きます。画像も 3 枚まで添えられます
+  - 送った内容は [Issues](https://github.com/nexy-apps/pinstage/issues) に届き、返事や経過もそこに書きます。**Issues は公開されます。** 添付した画像は公開されず、作者だけが見ます
+  - 不具合の報告には、原因を調べるため、Pinstage の版・macOS の版・Mac の種類・アクセシビリティと画面収録の許可・ウインドウバーの置き方・初期値から変えた設定・ディスプレイとウインドウの数などを添えます。送る前に、添える内容をフォームに表示します。ウインドウの題名やグループの名前は送りません
 
-**English:** Updated the description of "URL to recall a group" in the Automation settings. Nothing else changes in how it works.
+**English:** You can now send bug reports and feature requests from inside Pinstage (menu bar icon → 「不具合の報告・改善の依頼…」), no GitHub account needed. Reports arrive as public [Issues](https://github.com/nexy-apps/pinstage/issues); attached images are kept private. Bug reports include basic environment info (app and macOS version, Mac type, permissions, window bar placement, changed settings, and counts of displays and windows), shown in the form before sending. Window titles and group names are never sent.
 ]]></description>
-            <enclosure url="https://github.com/nexy-apps/pinstage/releases/download/v0.2.1-beta.1/Pinstage-0.2.1-beta.1.zip" length="4962418" type="application/octet-stream" sparkle:edSignature="Xm7boZcJ+31KWqVbZ/u5TPFZMFpCXqIZgSilYVFyHTlM0T0UhnsYlLtCyDL0TqtzdG6B4s/c6hgtRr6MZnLWDQ=="/>
+            <enclosure url="https://github.com/nexy-apps/pinstage/releases/download/v0.2.2-beta.1/Pinstage-0.2.2-beta.1.zip" length="5365351" type="application/octet-stream" sparkle:edSignature="ARCyK/VoOuT/HX8cvF2h9UEd1rnG9x1Ywk7BoqIJFmZcT/wQ4pfHi7f2boCFTa2UaxvjPFQOxJyJB1MHLF1JAw=="/>
         </item>
     </channel>
 </rss>
