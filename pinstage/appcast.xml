@@ -3,23 +3,20 @@
     <channel>
         <title>Pinstage</title>
         <item>
-            <title>0.2.2</title>
-            <pubDate>Sun, 29 Nov 2026 05:03:20 +0900</pubDate>
+            <title>0.2.3</title>
+            <pubDate>Sun, 29 Nov 2026 05:22:50 +0900</pubDate>
             <link>https://github.com/nexy-apps/pinstage</link>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## この版の変更（0.2.2）
+            <description sparkle:format="markdown"><![CDATA[## この版の変更（0.2.3）
 
 
-- **不具合の報告・改善の依頼を、アプリの中から送れるようになりました。** メニューバーのアイコン →「不具合の報告・改善の依頼…」で開きます。GitHub のアカウントは要りません
-  - 上のタブで「不具合」か「改善の依頼」を選んで書きます。画像も 3 枚まで添えられます
-  - 送った内容は [Issues](https://github.com/nexy-apps/pinstage/issues) に届き、返事や経過もそこに書きます。**Issues は公開されます。** 添付した画像は公開されず、作者だけが見ます
-  - 不具合の報告には、原因を調べるため、Pinstage の版・macOS の版・Mac の種類・アクセシビリティと画面収録の許可・ウインドウバーの置き方・初期値から変えた設定・ディスプレイとウインドウの数などを添えます。送る前に、添える内容をフォームに表示します。ウインドウの題名やグループの名前は送りません
+- **「不具合の報告・改善の依頼…」のフォームで、変換中の文字が消えないようにしました。** 日本語などの変換中に、ほかの欄へ移ったり、欄の外をクリックしたり、ほかのウインドウに移ったりすると、変換中の文字が消えることがありました。いまは消えずに確定します。変換中に「送る」を押したときも、確定してから送ります
 
-**English:** You can now send bug reports and feature requests from inside Pinstage (menu bar icon → 「不具合の報告・改善の依頼…」), no GitHub account needed. Reports arrive as public [Issues](https://github.com/nexy-apps/pinstage/issues); attached images are kept private. Bug reports include basic environment info (app and macOS version, Mac type, permissions, window bar placement, changed settings, and counts of displays and windows), shown in the form before sending. Window titles and group names are never sent.
+**English:** Fixed the bug report / feature request form so that text being composed with an input method (such as Japanese) is committed instead of lost when you move to another field, click outside the field, switch windows, or press Send.
 ]]></description>
-            <enclosure url="https://github.com/nexy-apps/pinstage/releases/download/v0.2.2-beta.1/Pinstage-0.2.2-beta.1.zip" length="5365351" type="application/octet-stream" sparkle:edSignature="ARCyK/VoOuT/HX8cvF2h9UEd1rnG9x1Ywk7BoqIJFmZcT/wQ4pfHi7f2boCFTa2UaxvjPFQOxJyJB1MHLF1JAw=="/>
+            <enclosure url="https://github.com/nexy-apps/pinstage/releases/download/v0.2.3-beta.1/Pinstage-0.2.3-beta.1.zip" length="5388003" type="application/octet-stream" sparkle:edSignature="oN7dofDGlGOc5VRdeRDmbD28bepB6bHgnFYqQssuQK51r1Bn6a2aEMUHFdcKSTRcVNgTnF6Zu8cd8mwxm8ojBQ=="/>
         </item>
     </channel>
 </rss>
