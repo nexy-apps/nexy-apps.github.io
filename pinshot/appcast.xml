@@ -3,27 +3,24 @@
     <channel>
         <title>Pinshot</title>
         <item>
-            <title>0.2.2</title>
-            <pubDate>Sun, 29 Nov 2026 04:46:36 +0900</pubDate>
+            <title>0.2.3</title>
+            <pubDate>Sun, 29 Nov 2026 05:22:58 +0900</pubDate>
             <link>https://github.com/nexy-apps/pinshot</link>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## この版の主な変更（0.2.1-beta.1 から）
+            <description sparkle:format="markdown"><![CDATA[## この版の主な変更（0.2.2-beta.1 から）
 
 
 0.1.x・0.2.x を入れている場合は、アプリの中から更新できます（メニューバーのアイコン →「アップデートを確認…」。自動でも確かめます）。画面収録などの許可は、取り直さずにそのまま使えます。
 
-### 新しくできること
+### 直したこと
 
-- **不具合の報告・改善の依頼を、アプリの中から送れるようになりました。** メニューバーのアイコン →「不具合の報告・改善の依頼…」で開きます。GitHub のアカウントは要りません
-  - 上のタブで「不具合」か「改善の依頼」を選んで書きます。画像も 3 枚まで添えられます
-  - 送った内容は [Issues](https://github.com/nexy-apps/pinshot/issues) に届き、返事や経過もそこに書きます。**Issues は公開されます。** 添付した画像は公開されず、作者だけが見ます
-  - 不具合の報告には、原因を調べるため、Pinshot の版・macOS の版・Mac の種類・許可の状態・初期値から変えた設定・画面の数などを添えます。送る前に、添える内容をフォームに表示します。撮った画像・読み取った文字・保存先のフォルダの場所・Gyazo のアカウントは送りません
+- 「不具合の報告・改善の依頼…」のフォームで、日本語などを変換している途中にほかの欄へ移ったり、欄の外を押したり、ほかのウインドウに移ったりすると、変換中の文字が消えることがあったのを直しました。いまは、変換中の文字を確定させてから移ります。変換中に「送る」を押したときや、フォームを閉じたときも、確定させてから送る・書きかけに残すようにしました
 
-**English:** You can now send bug reports and feature requests from inside Pinshot (menu bar icon → 「不具合の報告・改善の依頼…」), no GitHub account needed. Reports arrive as public [Issues](https://github.com/nexy-apps/pinshot/issues); attached images are kept private. Bug reports include basic environment info (app and macOS version, Mac type, permission status, changed settings, number of displays), shown in the form before sending. Your captures, recognized text, save folder location and Gyazo account are never sent. If you have 0.1.x or 0.2.x, you can update from the menu bar ("アップデートを確認…"); permissions such as Screen Recording are kept.
+**English:** Fixed an issue in the bug report / feature request form (「不具合の報告・改善の依頼…」) where text still being composed with a Japanese (or other) input method could be lost when moving to another field, clicking outside the field, switching windows, or closing the form. Composing text is now committed first, including when you press Send. If you have 0.1.x or 0.2.x, you can update from the menu bar ("アップデートを確認…"); permissions such as Screen Recording are kept.
 ]]></description>
-            <enclosure url="https://github.com/nexy-apps/pinshot/releases/download/v0.2.2-beta.1/Pinshot-0.2.2-beta.1.zip" length="5847077" type="application/octet-stream" sparkle:edSignature="JpEYqjXrkqTmSXSq4SfDUtNcJNuBEU82G52z6t0xAOYg4f1jrWBbqN9kIRnGaNGyNue6tQmSln1O684wli9gBg=="/>
+            <enclosure url="https://github.com/nexy-apps/pinshot/releases/download/v0.2.3-beta.1/Pinshot-0.2.3-beta.1.zip" length="5865866" type="application/octet-stream" sparkle:edSignature="jzRySLy+YtEsxsVttiBdcokyFKaLSryWk3+K8VsAcE/v53m1XBHnF+Aa0iV789dL/ZdgMwglD23hiEAj4cKXBg=="/>
         </item>
     </channel>
 </rss>
