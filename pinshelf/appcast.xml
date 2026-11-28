@@ -3,27 +3,24 @@
     <channel>
         <title>Pinshelf</title>
         <item>
-            <title>0.1.4</title>
-            <pubDate>Sun, 29 Nov 2026 02:52:54 +0900</pubDate>
+            <title>0.1.5</title>
+            <pubDate>Sun, 29 Nov 2026 05:22:30 +0900</pubDate>
             <link>https://github.com/nexy-apps/pinshelf</link>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>0.1.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## この版の主な変更（0.1.3-beta.1 から）
+            <description sparkle:format="markdown"><![CDATA[## この版の主な変更（0.1.4-beta.1 から）
 
 
-0.1.0〜0.1.3 を入れている場合は、アプリの中から更新できます（メニューバーのアイコン →「アップデートを確認…」。自動でも確かめます）。棚の中身と設定は、そのまま残ります。
+0.1.0〜0.1.4 を入れている場合は、アプリの中から更新できます（メニューバーのアイコン →「アップデートを確認…」。自動でも確かめます）。棚の中身と設定は、そのまま残ります。
 
-### 新しくできること
+### 直したこと
 
-- **不具合の報告・改善の依頼を、アプリの中から送れるようになりました。** メニューバーのアイコン →「不具合の報告・改善の依頼…」で開きます（0.1.3 で準備を入れ、この版から使えます）。GitHub のアカウントは要りません
-  - 上のタブで「不具合」か「改善の依頼」を選んで書きます。画像も 3 枚まで添えられます
-  - 送った内容は [Issues](https://github.com/nexy-apps/pinshelf/issues) に届き、返事や経過もそこに書きます。**Issues は公開されます。** 添付した画像は公開されず、作者だけが見ます
-  - 不具合の報告には、原因を調べるため、Pinshelf の版・macOS の版・Mac の種類・初期値から変えた設定などを添えます。送る前に、添える内容をフォームに表示します
+- 「不具合の報告・改善の依頼…」のフォームで、日本語などを変換している途中にほかの欄へ移ったり、欄の外やほかのウインドウを触ったりすると、変換中の文字が消えていたのを直しました
 
-**English:** You can now send bug reports and feature requests from inside Pinshelf (menu bar icon → 「不具合の報告・改善の依頼…」), no GitHub account needed. Reports arrive as public [Issues](https://github.com/nexy-apps/pinshelf/issues); attached images are kept private. Bug reports include basic environment info (app and macOS version, Mac type, changed settings), shown in the form before sending. If you have 0.1.0–0.1.3, you can update from the menu bar ("アップデートを確認…"); shelves and settings are kept.
+**English:** Fixed an issue in the bug report / feature request form where text still being composed with an input method (such as Japanese) was lost when moving to another field, clicking outside the field, or switching windows. If you have 0.1.0–0.1.4, you can update from the menu bar ("アップデートを確認…"); shelves and settings are kept.
 ]]></description>
-            <enclosure url="https://github.com/nexy-apps/pinshelf/releases/download/v0.1.4-beta.1/Pinshelf-0.1.4-beta.1.zip" length="3529085" type="application/octet-stream" sparkle:edSignature="xDmg8U5w2OxoeWva/ezU4NmQIzqcFq4HNl/rUj/6cANMlGZTdcB0gZzDYhskHSCAfjZxp06k61RoHFEg6SeIAw=="/>
+            <enclosure url="https://github.com/nexy-apps/pinshelf/releases/download/v0.1.5-beta.1/Pinshelf-0.1.5-beta.1.zip" length="3554132" type="application/octet-stream" sparkle:edSignature="LM1F2fTrcswa4pzh4Bkh1n88llhHJu+B4m6vfuWnQK+o4Oi0o1sGmb9a3xukSw356i6+KcY/dJC7BQyfNEDPAw=="/>
         </item>
     </channel>
 </rss>
